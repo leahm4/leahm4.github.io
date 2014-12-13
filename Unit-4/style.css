@@ -9,11 +9,10 @@ body {
 	position: fixed;
 	text-align: center;
 	font-size: 18px;
-	font-weight: 200;
 	line-height: 1.8em;
 	letter-spacing: .05em;
 	color: white;
-	font-family: 'Libre Baskerville', Georgia, serif;
+	font-family: 'Libre Baskerville', georgia, serif;
 }
 .film {
 	background:rgba(0,0,0,.3);
