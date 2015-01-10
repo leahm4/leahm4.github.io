@@ -5,6 +5,8 @@ body {
 	letter-spacing: .01em;
 	line-height: 1.8em;
 	color: #222;
+	font-family: "adobe-caslon-pro",serif;
+	font-size: 16px;
 }
 section {
 	max-width: 1200px;
@@ -70,18 +72,13 @@ header img {
 
 p {
 	margin-top: 100px;
-	font-family: "adobe-caslon-pro",serif;
 	font-weight: 300;
-	font-size: 16px;
 }
 
 
 h1 {
 	font-size: 150px;
 	color: white;
-	font-family: "adobe-caslon-pro",serif;
-	font-style: normal;
-	font-weight: 400;	
 	letter-spacing: .02em;
 }
 
@@ -116,14 +113,13 @@ h4 {
 }
 
 footer {
-vertical-align: bottom;
-clear: both;
-font-size: 10px;
-font-family: "brandon-grotesque",sans-serif;
-text-transform: uppercase;
-color: gray;
-letter-spacing: .02em;
-
+	vertical-align: bottom;
+	clear: both;
+	font-size: 10px;
+	font-family: "brandon-grotesque",sans-serif;
+	text-transform: uppercase;
+	color: gray;
+	letter-spacing: .02em;
 }
 #tour-carousel {
 	width: 40%;
@@ -152,35 +148,11 @@ letter-spacing: .02em;
 	display: inline-block;
 
 }
-
-
 #camels {
 	float:right;
 	display: inline-block;
 	margin-right: 50px;
 }
-
-#floatdiv {
-position:fixed;
-width:100%;
-height:60px; 
-padding:none;
-z-index:100;
-}
-
-
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display:block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
-
-
 .hero {
 	font-family: 'Adobe Caslon Pro', Times, serif;
 	font-weight: 400;
@@ -202,15 +174,6 @@ z-index:100;
 	font-style: normal;
 }
 
-
-.image-wrapper {
-	margin-top: 1%;
-	margin-left: 1%;
-}
-div {
-	padding: 30px;
-}
-
 /* unvisited link */
 nav a:link {
     color: #black;
@@ -228,5 +191,11 @@ nav a:active {
     color: #e6de5a;
     text-decoration: none;
 }
-
-
+.clearfix:after {
+	visibility: hidden;
+	display:block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
