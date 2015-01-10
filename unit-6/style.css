@@ -172,6 +172,13 @@ footer {
 }
 .testimonial-text {
 	float:right;
+	width:50%;
+}
+.testimonial-text a {
+	display:block;
+	text-transform:uppercase;
+	text-decoration:none;
+	float:right;
 }
 blockquote {
 	quotes:"\201C""\201D";
@@ -179,6 +186,11 @@ blockquote {
 blockquote:before {
 	color:#e5e5e5;
 	content:open-quote;
+	font-size:2em;
+}
+blockquote:after {
+	color:#e5e5e5;
+	content:close-quote;
 	font-size:2em;
 }
 .clearfix:after {
