@@ -21,7 +21,7 @@ section#tour {
 }
 section#about-us {
 	background-color: #e5e5e5;
-	width:100%;
+	max-width:100%;
 }
 section#testimonial {
 }
@@ -70,7 +70,6 @@ header img {
 }
 
 p {
-	margin-top: 100px;
 	font-weight: 300;
 }
 
@@ -112,10 +111,12 @@ h3 {
 }
 
 h4 {
-	font-size: .8em;
+	color:#555;
+	font-size: 1em;
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
-	font-weight: 300;	
+	font-weight: 300;
+	text-transform:uppercase;
 	/*letter-spacing: .02em;*/
 }
 
@@ -126,6 +127,21 @@ footer {
 	text-transform: uppercase;
 	color: gray;
 	/*letter-spacing: .02em;*/
+}
+.socialIcons {
+	width:50%;
+	float:left;
+}
+footer p {
+	width:50%;
+	float:right;
+	text-align:right;
+}
+.more a {
+	display:block;
+	text-transform:uppercase;
+	text-decoration:none;
+	float:right;
 }
 /* Tour */
 #tour-carousel {
@@ -165,20 +181,15 @@ footer {
 /* Testimonials */
 .testimonial-img {
 	float:left;
-	width:25%;
+	width:15%;
 }
 .testimonial-img img {
 	width:100%;
 }
 .testimonial-text {
+	font-size:1.5em;
 	float:right;
-	width:50%;
-}
-.testimonial-text a {
-	display:block;
-	text-transform:uppercase;
-	text-decoration:none;
-	float:right;
+	width:75%;
 }
 blockquote {
 	quotes:"\201C""\201D";
@@ -186,12 +197,17 @@ blockquote {
 blockquote:before {
 	color:#e5e5e5;
 	content:open-quote;
-	font-size:2em;
+	font-size:3em;
+	line-height:.1em;
+	margin-right:.5em;
+	vertical-align:-.25em;
 }
 blockquote:after {
 	color:#e5e5e5;
 	content:close-quote;
-	font-size:2em;
+	font-size:3em;
+	line-height:.1em;
+	vertical-align:-.25em;
 }
 .clearfix:after {
 	visibility: hidden;
