@@ -37,16 +37,17 @@ nav {
 	margin-top: 22px;
 }
 nav a {
-	margin-right: 40px;
-	text-align: center;
 	color: #222;
-	font-style: uppercase;
-	/*letter-spacing: .08em;*/
-	font-size: .9em;
-	text-transform: uppercase;
-	padding: 10px;
-	width: 120px;
 	font-family: "brandon-grotesque",sans-serif;
+	font-style: uppercase;
+	font-size: .9em;
+	/*letter-spacing: .08em;*/
+	margin-right: 40px;
+	padding: 10px;
+	text-align: center;
+	text-decoration:none;
+	text-transform: uppercase;
+	width: 120px;
 }
 
 /* mouse over link */
@@ -72,7 +73,9 @@ header img {
 p {
 	font-weight: 300;
 }
-
+strong {
+	font-weight:700;	
+}
 
 h1 {
 	font-size: 10em;
@@ -106,7 +109,8 @@ h3 {
 	font-size: 2em;
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
-	font-weight: 400;	
+	font-weight: 400;
+	margin-bottom:1em;
 	/*letter-spacing: .02em;*/
 }
 
@@ -119,23 +123,28 @@ h4 {
 	text-transform:uppercase;
 	/*letter-spacing: .02em;*/
 }
+.testimonial-text h4 {
+	float:left;
+}
 
 footer {
 	vertical-align: bottom;
 	font-family: "brandon-grotesque",sans-serif;
 	text-transform: uppercase;
 	color: #ccc;
+	max-width:75em;
+	margin:0 auto;
 	/*letter-spacing: .02em;*/
 }
 .socialIcons {
-	width:40%;
+	width:20%;
 	float:left;
 }
 .socialIcons img {
 	display:block;
 	float:left;
 	width:20%;
-	padding:.5em;
+	padding-right:1em;
 }
 footer p {
 	width:50%;
@@ -143,15 +152,32 @@ footer p {
 	font-size: .8em;
 	text-align:right;
 }
+a.cta {
+	background-color:#e5e5e5;
+	border-radius:2px;
+	color:#222;
+	display:block;
+	padding:.5em 1em;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+a.cta:hover {
+	background-color:#222;
+	color:#fff;
+}
 a.more {
+	color:#222;
 	display:block;
 	text-transform:uppercase;
 	text-decoration:none;
 	float:right;
 }
+a.more:hover {
+	color:#ccc;
+}
 /* Tour */
 #tour-carousel {
-	width: 40%;
+	width: 60%;
 	float:left;
 }
 #tour-carousel img {
@@ -166,6 +192,7 @@ a.more {
 .tour-text {
 	width:40%;
 	float:right;
+	padding:1em;
 }
 
 /* About */
@@ -175,6 +202,7 @@ a.more {
 }
 .about-text {
 	float:left;
+	padding:2em;
 	width:40%;
 }
 .about-img {
@@ -193,11 +221,11 @@ a.more {
 	width:100%;
 }
 .testimonial-text {
-	font-size:1.5em;
 	float:right;
 	width:75%;
 }
 blockquote {
+	font-size:1.5em;
 	quotes:"\201C""\201D";
 	line-height:1.4em;
 }
