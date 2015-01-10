@@ -154,16 +154,19 @@ footer p {
 }
 a.cta {
 	background-color:#e5e5e5;
-	border-radius:2px;
+	border-radius:3px;
 	color:#222;
 	display:block;
-	padding:.5em 1em;
+	padding:.5em 0;
+	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
+	width:10em;
 }
 a.cta:hover {
 	background-color:#222;
 	color:#fff;
+	
 }
 a.more {
 	color:#222;
@@ -179,6 +182,7 @@ a.more:hover {
 #tour-carousel {
 	width: 60%;
 	float:left;
+	padding:1em 2em;
 }
 #tour-carousel img {
 	display:block;
@@ -192,7 +196,7 @@ a.more:hover {
 .tour-text {
 	width:40%;
 	float:right;
-	padding:1em;
+	padding:1em 2em;
 }
 
 /* About */
