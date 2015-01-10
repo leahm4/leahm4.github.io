@@ -1,5 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-
+section+section {
+	margin-top:3em;
+}
 body {
 	font-weight: 400;
 	letter-spacing: .01em;
@@ -10,7 +12,6 @@ body {
 }
 section {
 	max-width: 1200px;
-	margin:0 auto;
 }
 section#splash {
 	background: url(assets/bg-lg-2.jpg) no-repeat center;
@@ -19,15 +20,13 @@ section#splash {
 	max-width:100%;
 }
 section#tour {
+	margin:auto;
 }
 section#about-us {
-	margin-top: 50px;
-	margin-left: 50px;
-	float:left;
+	margin:auto;
 }
 section#testimonial {
-	float:right;
-	margin-right: 100px;
+	margin:auto;
 }
 header {
 	background:#fff;
