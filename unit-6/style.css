@@ -9,7 +9,7 @@ body {
 }
 section {
 	max-width: 75em;
-	margin:3em auto 0;
+	margin:0em auto 4em;
 }
 section#splash {
 	background: url(assets/bg-lg-2.jpg) no-repeat center;
@@ -111,7 +111,7 @@ h3 {
 }
 
 h4 {
-	color:#555;
+	color:#ccc;
 	font-size: 1em;
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
@@ -122,22 +122,28 @@ h4 {
 
 footer {
 	vertical-align: bottom;
-	font-size: .8em;
 	font-family: "brandon-grotesque",sans-serif;
 	text-transform: uppercase;
-	color: gray;
+	color: #ccc;
 	/*letter-spacing: .02em;*/
 }
 .socialIcons {
-	width:50%;
+	width:40%;
 	float:left;
+}
+.socialIcons img {
+	display:block;
+	float:left;
+	width:20%;
+	padding:.5em;
 }
 footer p {
 	width:50%;
 	float:right;
+	font-size: .8em;
 	text-align:right;
 }
-.more a {
+a.more {
 	display:block;
 	text-transform:uppercase;
 	text-decoration:none;
@@ -193,21 +199,22 @@ footer p {
 }
 blockquote {
 	quotes:"\201C""\201D";
+	line-height:1.4em;
 }
 blockquote:before {
-	color:#e5e5e5;
+	color:#ccc;
 	content:open-quote;
 	font-size:3em;
-	line-height:.1em;
+	line-height:0em;
 	margin-right:.5em;
-	vertical-align:-.25em;
+	vertical-align:-.3em;
 }
 blockquote:after {
-	color:#e5e5e5;
+	color:#ccc;
 	content:close-quote;
 	font-size:3em;
-	line-height:.1em;
-	vertical-align:-.25em;
+	line-height:0em;
+	vertical-align:-.4em;
 }
 .clearfix:after {
 	visibility: hidden;
