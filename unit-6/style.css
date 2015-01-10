@@ -4,11 +4,11 @@ body {
 	letter-spacing: .01em;
 	line-height: 1.8em;
 	color: #222;
-	font-family: "adobe-caslon-pro",serif;
+	font-family: 'Adobe Caslon Pro', Times, serif;
 	font-size: 16px;
 }
 section {
-	max-width: 1200px;
+	max-width: 75em;
 	margin:3em auto 0;
 }
 section#splash {
@@ -40,7 +40,7 @@ nav a {
 	color: #222;
 	font-style: uppercase;
 	letter-spacing: .08em;
-	font-size: 14px;
+	font-size: .9em;
 	text-transform: uppercase;
 	padding: 10px;
 	width: 120px;
@@ -74,9 +74,16 @@ p {
 
 
 h1 {
-	font-size: 150px;
+	font-size: 10em;
 	color: white;
 	letter-spacing: .02em;
+}
+h1.hero {
+	font-weight: 400;
+	padding-top: 440px;
+	line-height: 1.3em;
+	font-size: 80px;
+	margin-left: 50px;
 }
 
 h2 { 
@@ -84,16 +91,18 @@ h2 {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	color: black;
-	font-size: 25px;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	letter-spacing: .05em;
+}
+h2.center {
+	text-align: center;
+	font-weight: 700;
 }
 
 
 h3 {
-	font-size: 30px;
-	color: black;
+	font-size: 2em;
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 400;	
@@ -101,8 +110,7 @@ h3 {
 }
 
 h4 {
-	font-size: 10px;
-	color: black;
+	font-size: .8em;
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 300;	
@@ -111,7 +119,7 @@ h4 {
 
 footer {
 	vertical-align: bottom;
-	font-size: 10px;
+	font-size: .8em;
 	font-family: "brandon-grotesque",sans-serif;
 	text-transform: uppercase;
 	color: gray;
@@ -125,31 +133,12 @@ footer {
 	display:block;
 	float:left;
 	width:25%;
-	padding:5px;
+	padding:.25em;
 }
 #tour-carousel img:first-child {
 	width:100%;
 }
-.hero {
-	font-family: 'Adobe Caslon Pro', Times, serif;
-	font-weight: 400;
-	margin-top: 440px;
-	margin-bottom: 70px;
-	line-height: 1.3em;
-	font-size: 80px;
-	margin-left: 50px;
-}
 
-
-.center {
-	text-align: center;
-	margin-top: 240px;
-	margin-bottom: 50px;
-	font-family: "brandon-grotesque",sans-serif;
-	font-weight: 700;
-	font-size: 24px;
-	font-style: normal;
-}
 .clearfix:after {
 	visibility: hidden;
 	display:block;
