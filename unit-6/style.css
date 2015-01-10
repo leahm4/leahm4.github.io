@@ -20,6 +20,8 @@ section#splash {
 section#tour {
 }
 section#about-us {
+	background-color: #e5e5e5;
+	width:100%;
 }
 section#testimonial {
 }
@@ -125,6 +127,7 @@ footer {
 	color: gray;
 	letter-spacing: .02em;
 }
+/* Tour */
 #tour-carousel {
 	width: 40%;
 	float:left;
@@ -138,6 +141,28 @@ footer {
 #tour-carousel img:first-child {
 	width:100%;
 }
+.tour-text {
+	width:40%;
+	float:right;
+}
+
+/* About */
+.about-wrap {
+	max-width:1200px;
+	margin:0 auto;
+}
+.about-text {
+	float:left;
+	width:40%;
+}
+.about-img {
+	float:right;
+	width:40%;
+}
+.about-img img {
+	width:100%;
+}
+/* Testimonials */
 
 .clearfix:after {
 	visibility: hidden;
