@@ -53,11 +53,18 @@ nav a {
 	font-family: "brandon-grotesque",sans-serif;
 }
 
-
-img {
-  margin: 0 auto;
-  width: 480px;
+/* mouse over link */
+nav a:hover {
+	background-color: #e5e5e5;
+	text-decoration: none;
 }
+
+/* selected link */
+nav a:active {
+    color: #e6de5a;
+    text-decoration: none;
+}
+img {}
 header img {
 	float:left;
 	max-width: 75%;
@@ -110,7 +117,6 @@ h4 {
 
 footer {
 	vertical-align: bottom;
-	clear: both;
 	font-size: 10px;
 	font-family: "brandon-grotesque",sans-serif;
 	text-transform: uppercase;
@@ -129,25 +135,6 @@ footer {
 }
 #tour-carousel img:first-child {
 	width:100%;
-}
-#featuredtour {
-	float:right;
-	display: inline-block;
-	width: 40%;
-	margin-right: 100px;
-}
-
-#testimonial-profile {
-	margin-left: 50px;
-	float:left;
-	width: 50px;
-	display: inline-block;
-
-}
-#camels {
-	float:right;
-	display: inline-block;
-	margin-right: 50px;
 }
 .hero {
 	font-family: 'Adobe Caslon Pro', Times, serif;
@@ -168,24 +155,6 @@ footer {
 	font-weight: 700;
 	font-size: 24px;
 	font-style: normal;
-}
-
-/* unvisited link */
-nav a:link {
-    color: #black;
-    text-decoration: none;
-}
-
-/* mouse over link */
-nav a:hover {
-	background-color: #e5e5e5;
-    text-decoration: none;
-}
-
-/* selected link */
-nav a:active {
-    color: #e6de5a;
-    text-decoration: none;
 }
 .clearfix:after {
 	visibility: hidden;
