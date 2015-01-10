@@ -11,9 +11,10 @@ section {
 	margin:0 auto;
 }
 section#splash {
-	background-image: url(assets/bg-lg-2.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: url(assets/bg-lg-2.jpg) no-repeat center;
+	background-size: cover;
+	height:100vh;
+	max-width:100%;
 }
 section#tour {
 }
@@ -57,7 +58,6 @@ nav a {
 
 img {
   margin: 0 auto;
-  clear: both;
   width: 480px;
 }
 header img {
@@ -132,7 +132,7 @@ letter-spacing: .02em;
 #tour-carousel img {
 	display:block;
 	float:left;
-	width:20%;
+	width:25%;
 	padding:5px;
 }
 #tour-carousel img:first-child {
@@ -143,8 +143,6 @@ letter-spacing: .02em;
 	display: inline-block;
 	width: 40%;
 	margin-right: 100px;
-}
-#testimonial {
 }
 
 #testimonial-profile {
