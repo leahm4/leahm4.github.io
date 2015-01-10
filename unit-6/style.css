@@ -1,9 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-image: url(assets/bg-lg-2.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
 	font-weight: 400;
 	letter-spacing: .01em;
 	line-height: 1.8em;
@@ -11,14 +8,34 @@ body {
 }
 section {
 	max-width: 1200px;
-	margin-left: 100px;
-	overflow: auto;
+	margin:0 auto;
+}
+section#splash {
+	background-image: url(assets/bg-lg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+section#tour {
+}
+section#about-us {
+	margin-top: 50px;
+	margin-left: 50px;
+	float:left;
+	width: 40%;
+	display: inline-block;
+}
+section#testimonial {
+	float:right;
+	display: inline-block;
+	width: 40%;
+	margin-right: 100px;
 }
 header {
 	background:#fff;
 	position:fixed;
 	top:0;
 	left:0;
+	right:0;
 }
 nav {
 	float:right;
@@ -108,42 +125,26 @@ color: gray;
 letter-spacing: .02em;
 
 }
-
-#topbar {
-	background-color: #fff; 
-	height: 5em;
-	width: 100%;
-}
-
-
-
 #tour-carousel {
-	margin-left: 50px;
 	width: 40%;
 	float:left;
-	display: inline-block;
 }
-
+#tour-carousel img {
+	display:block;
+	float:left;
+	width:20%;
+	padding:5px;
+}
+#tour-carousel img:first-child {
+	width:100%;
+}
 #featuredtour {
 	float:right;
 	display: inline-block;
 	width: 40%;
 	margin-right: 100px;
 }
-
-#about-us {
-	margin-top: 50px;
-	margin-left: 50px;
-	float:left;
-	width: 40%;
-	display: inline-block;
-}
-
 #testimonial {
-	float:right;
-	display: inline-block;
-	width: 40%;
-	margin-right: 100px;
 }
 
 #testimonial-profile {
