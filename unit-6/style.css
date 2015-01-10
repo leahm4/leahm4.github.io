@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-weight: 400;
-	letter-spacing: .01em;
+	/*letter-spacing: .01em;*/
 	line-height: 1.8em;
 	color: #222;
 	font-family: 'Adobe Caslon Pro', Times, serif;
@@ -41,7 +41,7 @@ nav a {
 	text-align: center;
 	color: #222;
 	font-style: uppercase;
-	letter-spacing: .08em;
+	/*letter-spacing: .08em;*/
 	font-size: .9em;
 	text-transform: uppercase;
 	padding: 10px;
@@ -78,7 +78,7 @@ p {
 h1 {
 	font-size: 10em;
 	color: white;
-	letter-spacing: .02em;
+	/*letter-spacing: .02em;*/
 }
 h1.hero {
 	font-weight: 400;
@@ -95,7 +95,7 @@ h2 {
 	font-weight: 500;
 	font-size: 1.5em;
 	text-transform: uppercase;
-	letter-spacing: .05em;
+	/*letter-spacing: .05em;*/
 }
 h2.center {
 	text-align: center;
@@ -108,7 +108,7 @@ h3 {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 400;	
-	letter-spacing: .02em;
+	/*letter-spacing: .02em;*/
 }
 
 h4 {
@@ -116,7 +116,7 @@ h4 {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 300;	
-	letter-spacing: .02em;
+	/*letter-spacing: .02em;*/
 }
 
 footer {
@@ -125,7 +125,7 @@ footer {
 	font-family: "brandon-grotesque",sans-serif;
 	text-transform: uppercase;
 	color: gray;
-	letter-spacing: .02em;
+	/*letter-spacing: .02em;*/
 }
 /* Tour */
 #tour-carousel {
@@ -163,7 +163,24 @@ footer {
 	width:100%;
 }
 /* Testimonials */
-
+.testimonial-img {
+	float:left;
+	width:25%;
+}
+.testimonial-img img {
+	width:100%;
+}
+.testimonial-text {
+	float:right;
+}
+blockquote {
+	quotes:"\201C""\201D";
+}
+blockquote:before {
+	color:#e5e5e5;
+	content:open-quote;
+	font-size:2em;
+}
 .clearfix:after {
 	visibility: hidden;
 	display:block;
