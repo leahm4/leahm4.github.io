@@ -93,7 +93,7 @@ h1.hero {
 	font-weight: 400;
 	padding-top: 440px;
 	line-height: 1.3em;
-	font-size: 80px;
+	font-size: 6em;
 	margin-left: 50px;
 }
 
@@ -297,4 +297,154 @@ blockquote:after {
 	clear: both;
 	height: 0;
 	font-size: 0;
+}
+
+@media (max-width: 800px) {
+
+body {
+	font-size: .8em;
+}
+
+header img {
+	float:left;
+	max-width: 40%;
+	margin: 12px;
+	display: block;
+}
+section#tour {
+	float:none;
+	width: auto;
+}
+#tour-carousel {
+	width: 100%;
+	float:left;
+	padding:0 4em 1em;
+}
+.tour-text {
+	width: 100%;
+	float:left;
+	padding:1em 4em 2em;
+	column-count: 2;
+	column-width: 50%;
+}
+.about-img {
+	float:left;
+	width:100%;
+}
+.about-img img {
+	width:100%;
+}
+.about-text {
+	float:left;
+	padding: 1em 4em 2em;
+	width:100%;
+}
+.testimonial-img {
+	float:left;
+	width:32%;
+	padding-left: 2em;
+	padding-top: 1.3em;
+}
+.testimonial-img img {
+	width:100%;
+	padding-left: 2em;
+}
+.testimonial-text {
+	float:right;
+	font-size: .9em;
+	width:63%;
+	padding-right: 4em;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+body {
+	font-size: .8em;
+}
+
+header img {
+	max-width: 90%;
+	margin: 5%;
+	display: block;
+}
+nav a {
+	font-size: 1em;
+	margin: 1em;
+}
+h1.hero {
+	font-weight: 400;
+	padding-top: 200px;
+	line-height: 1.3em;
+	font-size: 4em;
+	margin-left: 50px;
+	margin-right: 40px;
+}
+h2 {
+	margin: 5%;
+}
+section#splash {
+	height:100%;
+	max-width:100%;
+}
+section#tour {
+	float:none;
+	width: auto;
+}
+#tour-carousel {
+	width: 100%;
+	float:left;
+	padding:0 4em 1em;
+}
+.tour-text {
+	width: 100%;
+	float:left;
+	padding:1em 4em 2em;
+	column-count: 2;
+	column-width: 50%;
+}
+.about-img {
+	float:left;
+	width:100%;
+}
+.about-img img {
+	width:100%;
+}
+.about-text {
+	float:left;
+	padding: 1em 4em 2em;
+	width:100%;
+}
+.testimonial-img {
+	float:none;
+	width:70%;
+	padding-top: 1em;
+}
+.testimonial-img img {
+	float: none;
+	width:100%;
+	padding-left: 2em;
+}
+.testimonial-text {
+	float:none;
+	font-size: .9em;
+	width:90%;
+	padding: 1em 4em 2em;
+}
+.socialIcons {
+	width:40%;
+	float:left;
+	margin-left: 2em;
+}
+	}
+footer p {
+	width:50%;
+	float:right;
+	font-size: .8em;
+	padding-top: .8em;
+	padding-bottom: 2em;
+	text-align:right;
+	letter-spacing: .05em;
+	margin-right: 2em;
+}
 }
