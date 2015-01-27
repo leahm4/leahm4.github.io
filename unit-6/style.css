@@ -71,7 +71,7 @@ img {}
 header img {
 	float:left;
 	max-width: 75%;
-	margin: 12px;
+	margin: 10px;
 	display: block;
 }
 
@@ -95,6 +95,7 @@ h1.hero {
 	line-height: 1.3em;
 	font-size: 6em;
 	margin-left: 50px;
+	width: 60%;
 }
 
 h2 { 
@@ -164,8 +165,6 @@ footer {
 	padding-right:.3em;
 	padding-bottom: .5em;
 	width:15%;
-
-
 }
 footer p {
 	width:50%;
@@ -217,19 +216,24 @@ a.more:hover {
 	border-bottom:  2px solid #da704a;
 }
 /* Tour */
-#tour-carousel {
+.fotorama {
 	width: 60%;
 	float:left;
 	padding:1em 2em;
 }
-#tour-carousel img {
+.fotorama img {
 	display:block;
 	float:left;
 	width:25%;
 	padding:.25em;
 }
-#tour-carousel img:first-child {
+.fotorama img:first-child {
 	width:100%;
+}
+.tour-headline {
+	width:40%;
+	float:right;
+	padding:1em 2em;
 }
 .tour-text {
 	width:40%;
@@ -299,7 +303,7 @@ blockquote:after {
 	font-size: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
 
 body {
 	font-size: .8em;
@@ -307,18 +311,33 @@ body {
 
 header img {
 	float:left;
-	max-width: 40%;
+	max-width: 50%;
 	margin: 12px;
 	display: block;
+}
+h1.hero {
+	padding-top: 300px;
+	font-size: 6em;
+	margin-left: .7em;
+	width: 70%;
 }
 section#tour {
 	float:none;
 	width: auto;
 }
-#tour-carousel {
+nav a {
+	font-size: 1em;
+	letter-spacing: .09em;
+	margin-right: 20px;
+	padding: 2em 1em 1em 1em;
+}
+.fotorama {
 	width: 100%;
-	float:left;
 	padding:0 4em 1em;
+}
+.tour-headline {
+	text-align: center;
+	width:100%;
 }
 .tour-text {
 	width: 100%;
@@ -340,7 +359,7 @@ section#tour {
 	width:100%;
 }
 .testimonial-img {
-	float:left;
+	margin: 0, auto;
 	width:32%;
 	padding-left: 2em;
 	padding-top: 1.3em;
@@ -355,47 +374,72 @@ section#tour {
 	width:63%;
 	padding-right: 4em;
 }
+.socialIcons {
+	width:25%;
+	margin: 0, auto;
+	padding-left: 2em;
+}
 
+footer p {
+	font-size: .8em;
+	display: block;
+	float: right;
+	padding-right: 3em;
+	letter-spacing: .05em;
+}
 
 @media only screen and (max-width: 400px) {
 
 body {
 	font-size: .8em;
 }
+header {
+	height: 92px;
+}
 
 header img {
-	max-width: 90%;
-	margin: 5%;
+	max-width: 95%;
+	margin: 3.33%;
 	display: block;
+}
+nav {
+	float:right;
+	margin-top:0;
 }
 nav a {
 	font-size: 1em;
 	margin: 1em;
+	padding-bottom: 1em;
 }
 h1.hero {
 	font-weight: 400;
 	padding-top: 200px;
 	line-height: 1.3em;
 	font-size: 4em;
-	margin-left: 50px;
-	margin-right: 40px;
+	margin-left: .7em;
+	width: 85%;
 }
 h2 {
 	margin: 5%;
 }
 section#splash {
-	height:100%;
+	height:50%;
 	max-width:100%;
 }
 section#tour {
 	float:none;
 	width: auto;
 }
-#tour-carousel {
-	width: 100%;
-	float:left;
-	padding:0 4em 1em;
+.fotorama {
+	width:100vw;
+	margin: none;
+	padding:none;
 }
+
+.tour-headline {
+	text-align: center;
+}
+
 .tour-text {
 	width: 100%;
 	float:left;
@@ -432,19 +476,15 @@ section#tour {
 	padding: 1em 4em 2em;
 }
 .socialIcons {
-	width:40%;
-	float:left;
-	margin-left: 2em;
-}
-	}
-footer p {
 	width:50%;
-	float:right;
+	margin: 0, auto;
+	padding: none;
+}
+
+footer p {
 	font-size: .8em;
-	padding-top: .8em;
-	padding-bottom: 2em;
-	text-align:right;
+	display: block;
+	text-align:center;
 	letter-spacing: .05em;
-	margin-right: 2em;
 }
-}
+
