@@ -17,9 +17,25 @@ section#splash {
 	height:100vh;
 	max-width:100%;
 }
+section#short-splash {
+	background: url(assets/bg-lg-2.jpg) no-repeat center;
+	background-size: cover;
+	height:60vh;
+	max-width:100%;
+}
 section#tour {
 	padding-top: 1em;
 	padding-bottom: 2em;
+}
+section#tour-left {
+	margin: 0, auto;
+	padding: 4em;
+	width: 60em;
+}
+section#tour-right {
+	float:right;
+	padding: 4em;
+	width: 60em;
 }
 section#about-us {
 	background-color: #f2ede3;
@@ -221,7 +237,20 @@ a.more:hover {
 	float:left;
 	padding:1em 2em;
 }
+
+.fotorama-small {
+	width: 40%;
+	float:left;
+	padding-bottom: 1em;
+}
+
 .fotorama img {
+	display:block;
+	float:left;
+	width:25%;
+	padding:.25em;
+}
+.fotorama-small img {
 	display:block;
 	float:left;
 	width:25%;
@@ -230,15 +259,22 @@ a.more:hover {
 .fotorama img:first-child {
 	width:100%;
 }
+.fotorama-small img:first-child {
+	width:100%;
+}
 .tour-headline {
 	width:40%;
 	float:right;
 	padding:1em 2em;
 }
-.tour-text {
+.tour-text-right {
 	width:40%;
 	float:right;
 	padding:1em 2em;
+}
+
+.tour-text-left {
+	width:40%;
 }
 
 /* About */
