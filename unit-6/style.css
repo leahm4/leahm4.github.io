@@ -23,20 +23,12 @@ section#short-splash {
 	height:60vh;
 	max-width:100%;
 }
-section#tour {
+section.tour {
+	float: left;
 	padding-top: 1em;
 	padding-bottom: 2em;
 }
-section#tour-left {
-	margin: 0, auto;
-	padding: 4em;
-	width: 60em;
-}
-section#tour-right {
-	float:right;
-	padding: 4em;
-	width: 60em;
-}
+
 section#about-us {
 	background-color: #f2ede3;
 	max-width:100%;
