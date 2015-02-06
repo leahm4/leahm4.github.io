@@ -7,10 +7,11 @@ body {
 	font-size: 16px;
 	letter-spacing: .004em;
 }
-section {
-	max-width: 75em;
-	margin:0em auto 4em;
+section.all-tours {
+	max-width: 80em;
+	margin: 0, auto;
 }
+
 section#splash {
 	background: url(assets/bg-lg-2.jpg) no-repeat center;
 	background-size: cover;
@@ -23,12 +24,17 @@ section#short-splash {
 	height:60vh;
 	max-width:100%;
 }
-section.tour {
+section#tour {
 	float: left;
-	padding-top: 1em;
-	padding-bottom: 2em;
+	padding: 2em;
+	max-width: 100%;
+	margin: 0, auto;
 }
-
+section.tours {
+	float: left;
+	padding: 2em;
+	width: 45%;
+}
 section#about-us {
 	background-color: #f2ede3;
 	max-width:100%;
@@ -43,6 +49,7 @@ header {
 	top:0;
 	left:0;
 	right:0;
+	z-index:2;
 }
 nav {
 	float:right;
@@ -75,7 +82,7 @@ nav a:active {
     color: black;
     text-decoration: none;
 }
-img {}
+
 header img {
 	float:left;
 	max-width: 75%;
@@ -105,6 +112,14 @@ h1.hero {
 	margin-left: 50px;
 	width: 60%;
 }
+h1.hero-tours {
+	font-weight: 400;
+	padding-top: 2.7em;
+	line-height: 1.3em;
+	font-size: 6em;
+	margin-left: 50px;
+	width: 60%;
+}
 
 h2 { 
 	font-family: "brandon-grotesque",sans-serif;
@@ -119,10 +134,12 @@ h2 {
 	letter-spacing: .08em;
 	word-spacing: .13em;
 }
+
 h2.center {
 	text-align: center;
+	width: 100%;
+	padding: 2.5em;
 }
-
 
 h3 {
 	font-size: 2em;
@@ -141,7 +158,7 @@ h4 {
 	font-style: normal;
 	font-weight: 300;
 	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-bottom: 1em;
 	text-transform:uppercase;
 	letter-spacing: .04em;
 }
@@ -149,23 +166,21 @@ h4 {
 	float:left;
 	font-size: 0.9em;
 	letter-spacing: .06em;
-
 }
 
 footer {
 	vertical-align: bottom;
+	float: left;
 	font-family: "brandon-grotesque",sans-serif;
 	text-transform: uppercase;
 	color: #ccc;
-	max-width:75em;
-	margin:0 auto;
-	/*letter-spacing: .02em;*/
+	width:100%;
+	padding-top: 4em;
 }
 .socialIcons {
 	width:17%;
 	float:left;
 	margin-left: 2em;
-
 }
 .socialIcons img {
 	display:block;
@@ -182,7 +197,6 @@ footer p {
 	padding-bottom: .2em;
 	text-align:right;
 	letter-spacing: .05em;
-	margin-right: .6em;
 }
 a.cta {
 	background-color:#d9ecea;
@@ -224,14 +238,8 @@ a.more:hover {
 }
 /* Tour */
 .fotorama {
-	width: 60%;
-	float:left;
-	padding:1em 2em;
-}
-
-.fotorama-small {
-	width: 40%;
-	float:left;
+	width: 100%;
+	padding-top: .5em;
 	padding-bottom: 1em;
 }
 
@@ -241,31 +249,23 @@ a.more:hover {
 	width:25%;
 	padding:.25em;
 }
-.fotorama-small img {
-	display:block;
-	float:left;
-	width:25%;
-	padding:.25em;
-}
+
 .fotorama img:first-child {
 	width:100%;
 }
-.fotorama-small img:first-child {
-	width:100%;
-}
+
 .tour-headline {
 	width:40%;
 	float:right;
 	padding:1em 2em;
 }
-.tour-text-right {
+.tour-text {
 	width:40%;
 	float:right;
 	padding:1em 2em;
 }
-
-.tour-text-left {
-	width:40%;
+.tours-text {
+	width: 100%;
 }
 
 /* About */
@@ -361,6 +361,8 @@ nav a {
 .fotorama {
 	width: 100%;
 	padding:0 4em 1em;
+	z-index:1;
+
 }
 .tour-headline {
 	text-align: center;
