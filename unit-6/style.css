@@ -246,7 +246,6 @@ a.more:hover {
 }
 /* Tour */
 .fotorama {
-<<<<<<< HEAD
 	width: 60%;
 	float:left;
 	padding:1em 2em;
@@ -256,10 +255,8 @@ a.more:hover {
 .fotorama-small {
 	width: 40%;
 	float:left;
-=======
 	width: 100%;
 	padding-top: .5em;
->>>>>>> FETCH_HEAD
 	padding-bottom: 1em;
 }
 
