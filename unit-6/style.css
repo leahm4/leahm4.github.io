@@ -51,6 +51,7 @@ header {
 	top:0;
 	left:0;
 	right:0;
+	z-index:2;
 }
 nav {
 	float:right;
@@ -142,6 +143,10 @@ h3 {
 	word-spacing: .05em;
 }
 
+h3.contact-header {
+	padding: 2em;
+}
+
 h4 {
 	color:#b0b0b0;
 	font-size: .8em;
@@ -149,7 +154,7 @@ h4 {
 	font-style: normal;
 	font-weight: 300;
 	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-bottom: 2em;
 	text-transform:uppercase;
 	letter-spacing: .04em;
 }
@@ -196,15 +201,15 @@ a.cta {
 	background-color:#d9ecea;
 	border-radius:3px;
 	color:#414042;
-	display:block;
 	font-family: "brandon-grotesque",sans-serif;
-	padding:.6em .5em .46em .5em;
+	padding:1em 1.3em .9em 1.3em;
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
 	width:10em;
 	letter-spacing: .1em;
 	font-size: .8em;
+	margin-top:2em;
 
 }
 a.cta:hover {
@@ -235,6 +240,7 @@ a.more:hover {
 	width: 60%;
 	float:left;
 	padding:1em 2em;
+	z-index: 1;
 }
 
 .fotorama-small {
@@ -264,7 +270,7 @@ a.more:hover {
 .tour-headline {
 	width:40%;
 	float:right;
-	padding:1em 2em;
+	padding:1em 0;
 }
 .tour-text-right {
 	width:40%;
