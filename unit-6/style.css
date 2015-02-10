@@ -25,10 +25,9 @@ section#short-splash {
 	max-width:100%;
 }
 section#tour {
-	float: left;
 	padding: 2em;
-	max-width: 100%;
-	margin: 0, auto;
+	max-width: 80em;
+	margin: 0 auto;
 }
 section.tours {
 	float: left;
@@ -162,11 +161,7 @@ h4 {
 	font-style: normal;
 	font-weight: 300;
 	padding-top: .5em;
-<<<<<<< HEAD
 	padding-bottom: 2em;
-=======
-	padding-bottom: 1em;
->>>>>>> FETCH_HEAD
 	text-transform:uppercase;
 	letter-spacing: .04em;
 }
@@ -251,6 +246,7 @@ a.more:hover {
 	padding:1em 2em;
 	z-index: 1;
 }
+
 
 .fotorama-small {
 	width: 40%;
