@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	letter-spacing: .004em;
 }
-section.all-tours {
+section#all-tours {
 	max-width: 80em;
 	margin: 0 auto;
 }
