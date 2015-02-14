@@ -18,6 +18,12 @@ section#splash {
 	height:100vh;
 	max-width:100%;
 }
+section#contact {
+	background: url(assets/contact-bg.jpg) no-repeat center;
+	background-size: cover;
+	height:100vh;
+	max-width:100%;
+}
 section#short-splash {
 	background: url(assets/bg-lg-2.jpg) no-repeat center;
 	background-size: cover;
@@ -38,11 +44,29 @@ section#about-us {
 	background-color: #f2ede3;
 	max-width:100%;
 }
+section#about-us-page {
+	background-color: #f2ede3;
+	max-width:100%;
+	padding-top: 8em;
+	padding-bottom: 4em;
+	margin-bottom: 3em;
+}
 section#testimonial {
 	padding-top: 1em;
 	padding-bottom: 3em;
 	max-width:75em;
 	margin:0 auto;
+}
+section#staff {
+	float: left;
+	padding-right: 5em;
+	padding-bottom: 5em;
+	width: 33%;
+}
+
+section#center {
+	margin: 0 auto;
+	max-width: 1200px;
 }
 header {
 	background: rgba(255,255,255,0.95);
@@ -153,7 +177,12 @@ h3 {
 }
 
 h3.contact-header {
-	padding: 2em;
+	font-size: 2.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #414042;
+	font-family: 'Adobe Caslon Pro', Times, serif;
+	text-align:center;
 }
 
 h4 {
@@ -173,6 +202,14 @@ h4 {
 	letter-spacing: .06em;
 }
 
+h5 {
+	font-size: 1.5em;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	color: #414042;
+	font-family: 'Adobe Caslon Pro', Times, serif;
+}
+
 footer {
 	vertical-align: bottom;
 	float: left;
@@ -180,7 +217,7 @@ footer {
 	text-transform: uppercase;
 	color: #ccc;
 	width:100%;
-	padding-top: 4em;
+	padding-top: 1em;
 }
 .socialIcons {
 	width:17%;
@@ -192,14 +229,14 @@ footer {
 	float:left;
 	padding-right:.3em;
 	padding-bottom: .5em;
-	width:15%;
+	width:10%;
 }
 footer p {
 	width:50%;
 	float:right;
 	font-size: .7em;
 	padding-top: .8em;
-	padding-bottom: .2em;
+	padding-bottom: 1em;
 	text-align:right;
 	letter-spacing: .05em;
 }
@@ -288,16 +325,31 @@ a.more:hover {
 	max-width:75em;
 	margin:0 auto;
 }
+.about-wrap-page {
+	max-width:75em;
+	margin:0 auto;
+}
 .about-text {
 	float:left;
-	padding:2em;
+	padding:1em;
 	width:40%;
+}
+.about-text-page {
+	float:left;
+	width:30%;
 }
 .about-img {
 	float:right;
 	width:50%;
 }
 .about-img img {
+	width:100%;
+}
+.about-img-page {
+	float:right;
+	width:60%;
+}
+.about-img-page img {
 	width:100%;
 }
 /* Testimonials */
@@ -314,6 +366,8 @@ a.more:hover {
 	width:75%;
 	padding-right: 5em;
 }
+
+
 blockquote {
 	font-size:1.5em;
 	padding-top: .9em;
